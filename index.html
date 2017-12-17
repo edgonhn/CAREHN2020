@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="https://www.dropbox.com/s/ainkwkmqjskatkb/d3_sunburst.css?raw=1"/>
+    <link rel="stylesheet" type="text/css"
+      href="http://cdn.datatables.net/1.10.5/css/jquery.dataTables.css"/>
+    <script src="https://www.dropbox.com/s/4seh649to06i8o0/run_datatable.js?raw=1"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div id="figure">
+            <div class="sunburst_plot">
+                <div id="main">
+                  <div id="sequence"></div>
+                  <div id="chart">
+                  </div>
+                  <div id="explanation" style="visibility: hidden;">
+                    <span id="percentage"></span><br/>
+                    samples
+                  </div>
+                  <div id="icon">
+                    <img src="globe_square.png", height='160', width='160'>
+                  </div>
+                </div>
+                <div id="sidebar" style="visibility: hidden;">>
+                  <input type="checkbox" id="togglelegend"> Legend<br/>
+                  <div id="legend" style="visibility: hidden;"></div>
+                </div>
+            </div>
+            <div id="demo"></div>
+            <script type="text/javascript" src="colors.js"></script>
+            <script type="text/javascript" src="https://www.dropbox.com/s/6vbileo7sklv9mc/d3_sunburst.js?raw=1"></script>
+            <script type="text/javascript">
+              d3.select(self.frameElement).style("height", "1300px");
+            </script>
+        </div>
+    </div>
+  </body>
+</html>
