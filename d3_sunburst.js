@@ -318,10 +318,10 @@ function drawLegend() {
 
 function toggleLegend() {
   var legend = d3.select("#legend");
-  if (legend.style("visibility") == "hidden") {
+  if (legend.style("visibility") == "visible") {
     legend.style("visibility", "");
   } else {
-    legend.style("visibility", "hidden");
+    legend.style("visibility", "visible");
   }
 }
 
