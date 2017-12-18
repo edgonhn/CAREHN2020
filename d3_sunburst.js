@@ -70,7 +70,7 @@ function createVisualization(json) {
 
     // Add image to center
     vis.selectAll("image").data([0]).enter().append("image")
-                                    .attr("xlink:href", "globe_square.png")
+                                    .attr("xlink:href", "https://edgonhn.github.io/CAREHN2020/2020ICON.png")
                                     .attr("x", -80)
                                     .attr("y", -80)
                                     .attr("width", "160")
