@@ -154,9 +154,9 @@ function mouseleave(d) {
             });
 
   d3.select("#explanation")
-      .style("visibility", "hidden");
+      .style("visibility", "visible");
   d3.select("#icon")
-      .style("visibility", "hidden");
+      .style("visibility", "visible");
 }
 
 // Given a node in a partition layout, return an array of all of its ancestor
