@@ -8,10 +8,10 @@ d3.text("https://edgonhn.github.io/CAREHN2020/HN TABLE INDICATORS.csv", function
     my_data_table = $('#example').dataTable( {
           "data": csv,
           "columns": [
-              { "title": "id" },
-              { "title": "file_name" },
-              { "title": "project" },
-              { "title": "link", "class": "center" },
+              { "title": "CI_Global_Impact" },
+              { "title": "CI_Indicator" },
+              { "title": "HN_Project" },
+              { "title": "HNP_Indicator", "class": "center" },
           ]
       } );   
 } );
