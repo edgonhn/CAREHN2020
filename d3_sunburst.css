@@ -53,9 +53,9 @@
 
 #explanation {
   position: absolute;
-  top: 260px;
-  left: 305px;
-  width: 140px;
+  top: 300px;
+  left: 600px;
+  width: 40px;
   text-align: center;
   color: #667;
   z-index: -1;
