@@ -156,7 +156,7 @@ function mouseleave(d) {
   d3.select("#explanation")
       .style("visibility", "hidden");
   d3.select("#icon")
-      .style("visibility", "");
+      .style("visibility", "hidden");
 }
 
 // Given a node in a partition layout, return an array of all of its ancestor
