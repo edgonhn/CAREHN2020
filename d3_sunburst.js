@@ -71,8 +71,8 @@ function createVisualization(json) {
     // Add image to center
     vis.selectAll("image").data([0]).enter().append("image")
                                     .attr("xlink:href", "https://edgonhn.github.io/CAREHN2020/2020ICON.png")
-                                    .attr("x", -80)
-                                    .attr("y", -80)
+                                    .attr("x", -10)
+                                    .attr("y", -10)
                                     .attr("width", "300")
                                     .attr("height", "300");
     // Get total size of the tree = value of root node from partition.
