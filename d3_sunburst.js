@@ -69,12 +69,12 @@ function createVisualization(json) {
       .on("click", click);
 
     // Add image to center
-    vis.selectAll("image").data([0]).enter().append("image")
-                                    .attr("xlink:href", "https://edgonhn.github.io/CAREHN2020/2020ICON.png")
-                                    .attr("x", -80)
-                                    .attr("y", -80)
-                                    .attr("width", "160")
-                                    .attr("height", "160");
+    // vis.selectAll("image").data([0]).enter().append("image")
+                                  //  .attr("xlink:href", "https://edgonhn.github.io/CAREHN2020/2020ICON.png")
+                                  //  .attr("x", -80)
+                                   // .attr("y", -80)
+                                  //  .attr("width", "160")
+                                  //  .attr("height", "160");
     // Get total size of the tree = value of root node from partition.
     totalSize = path.node().__data__.value;
    };
