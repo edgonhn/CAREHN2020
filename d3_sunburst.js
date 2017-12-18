@@ -73,8 +73,8 @@ function createVisualization(json) {
                                     .attr("xlink:href", "https://edgonhn.github.io/CAREHN2020/2020ICON.png")
                                     .attr("x", -80)
                                     .attr("y", -80)
-                                    .attr("width", "350")
-                                    .attr("height", "350");
+                                    .attr("width", "300")
+                                    .attr("height", "300");
     // Get total size of the tree = value of root node from partition.
     totalSize = path.node().__data__.value;
    };
