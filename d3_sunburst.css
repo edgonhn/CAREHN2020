@@ -63,11 +63,11 @@
 
 #icon {
   position: absolute;
-  top: 219px;
-  left: 297px;
+  top: 300px;
+  left: 300px;
   width: 140px;
   text-align: center;
-  color: #666;
+  color: #667;
   z-index: -1;
 }
 
